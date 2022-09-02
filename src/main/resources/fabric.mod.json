@@ -1,29 +1,29 @@
 {
   "schemaVersion": 1,
-  "id": "modid",
+  "id": "order_npc",
   "version": "${version}",
 
-  "name": "Example Mod",
-  "description": "This is an example description! Tell everyone what your mod is about!",
+  "name": "Order NPC",
+  "description": "Добавляет возможность создавать своих NPC!",
   "authors": [
-    "Me!"
+    "nedfreetoplay"
   ],
   "contact": {
-    "homepage": "https://fabricmc.net/",
-    "sources": "https://github.com/FabricMC/fabric-example-mod"
+    "homepage": "https://github.com/nedfreetoplay",
+    "sources": "https://github.com/civcraft-ru/OrderNPC"
   },
 
-  "license": "CC0-1.0",
-  "icon": "assets/modid/icon.png",
+  "license": "MIT",
+  "icon": "assets/order_npc/icon.png",
 
   "environment": "*",
   "entrypoints": {
     "main": [
-      "net.fabricmc.example.ExampleMod"
+      "ru.nedfreetoplay.ordernpc.OrderNPC"
     ]
   },
   "mixins": [
-    "modid.mixins.json"
+    "order_npc.mixins.json"
   ],
 
   "depends": {
