@@ -1,0 +1,8 @@
+{
+    "itemGroup.order_npc.items" : "Order NPC",
+	
+    "item.customnpcs.npcwand": "Настройщик NPC",
+    "item.customnpcs.npcmobcloner": "Клонер NPC",
+    "item.customnpcs.npcmovingpath": "Путевод NPC",
+    "item.customnpcs.npcmounter": "Спаунер NPC"
+}

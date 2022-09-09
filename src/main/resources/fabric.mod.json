@@ -20,6 +20,9 @@
   "entrypoints": {
     "main": [
       "ru.nedfreetoplay.ordernpc.OrderNPC"
+    ],
+    "client": [
+      "ru.nedfreetoplay.ordernpc.OrderNPCClient"
     ]
   },
   "mixins": [
